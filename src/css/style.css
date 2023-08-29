@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1790px;
+}
+
+:root{
+    --secondary-color: #F38B2E;
+    --primary-color: #1E1E2B;
+}
+.nav-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+    background: var(--primary-color);
+
+    
+}
+.btn-primary{
+    padding: 10px;
+    background: var(--secondary-color);
+    border: none;
+
+    width: 80px;
+
+}
+
+.btn-primary:hover{
+    transition: 0.5s ease;
+    background: white;
+}
+.nav-container .nav-menu{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+.nav-menu .logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu .logo a> img{
+    width: 120px;
+    height: 30px;
+}
+.nav-menu .menu-list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-list .list-item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 5px;
+}
+.list-item a{
+    color: white;
+    font-size: 18px;
+}
+.nav-menu .nav-login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.nav-login .login-list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-list .login-item{
+    margin-left: 5px;
+    background: #F38B2E;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.login-item a{
+    color: white;
+}
+.nav-login .login-menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.heroSection-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 850px;
+
+
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+section.heroSection-container img.heroSection-background{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+
+    object-fit: cover;
+    object-position: center;
+}
+
+section.heroSection-container .heroMenu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 100%;
+
+}
+.heroMenu .heroCard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    margin-top: 250px;
+
+}
+.heroCard .heroCard-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 55px;
+
+}
+.heroCard-header h1.head{
+    color: white;
+}
+.heroCard .heroCard-main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heroCard-main form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+}
+form .searchBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px;
+
+    width: 850px;
+    border-radius: 0;
+    border: none;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+form .btn{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   padding: 40px;
+   margin-left: 2px;
+
+   background: var(--secondary-color);
+   border: none;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   outline: none;
+}
+btn:focus{
+    border: none;
+    outline: none;
+
+}
+section.services-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 850px;
+
+   
+}
+section.services-container .services-menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+
+}
+.services-menu .services-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+
+}
+.services-header .servicesHeader-grid{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: repeat(5,350px);
+    grid-template-rows: 100%;
+    gap: 10px;
+}
+.servicesHeader-grid .grid-1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+    background: var(--secondary-color);
+}
+.servicesHeader-grid .grid-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+    background: var(--secondary-color);
+}
+.servicesHeader-grid .grid-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+    background: var(--secondary-color);
+}
+.servicesHeader-grid .grid-4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+    background: var(--secondary-color);
+}
+.servicesHeader-grid .grid-5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+    background: var(--secondary-color);
+}
+.grid-1 form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+.grid-2 form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+.grid-3 form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+.grid-4 form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+.grid-5 form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+ form> .grid-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+
+    background: var(--secondary-color);
+
+    color: var(--primary-color);
+    font-size: 18px;
+}
+.services-menu .services-main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+
+
+}
+.services-main .services-main-menu{
+    position: relative;
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    grid-template-columns: repeat(5,350px);
+} 
+.services-main-menu .services-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 450px;
+
+    background: var(--primary-color);
+    margin-top: 10px;
+
+    flex-direction: column;
+
+}
